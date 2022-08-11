@@ -1,0 +1,94 @@
+html{
+    font-size: 62.5%;
+}
+body, html{
+    margin: 0%;
+    height: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content{
+    font-size: 1.6rem;
+    color: #777;
+    text-align: justify;
+    padding: 8rem 8rem;
+    background-color: white;
+}
+h1{
+    color: rgb(68, 68, 68);
+    text-align: center;
+    text-transform: uppercase;
+}
+.navebar{
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+    background-color:#444;
+}
+.navebar a{
+    text-transform: uppercase;
+    color: #fff;
+    padding: 2rem;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+/* parallax */
+
+.box1, .box2, .box3, .box4{
+    position: relative;
+    height: 90vh;
+    opacity: 0.7;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.title_box{
+    position: absolute;
+    left: 0%;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+}
+.title_box .title{
+    font-size: 2.5rem;
+    text-transform:uppercase;
+    letter-spacing: 0.8rem;
+    color: #fff;
+    padding: 2rem;
+    background-color: #000;
+}
+
+.box1{
+    background-image: url(https://cdn.pixabay.com/photo/2020/08/07/19/19/chili-chicken-5471406_960_720.jpg);
+
+}
+.box2{
+    background-image: url(https://cdn.pixabay.com/photo/2015/01/16/15/01/dinner-601576_960_720.jpg);
+
+}
+.box3{
+    background-image: url(https://cdn.pixabay.com/photo/2016/10/21/23/33/stew-1759394_960_720.jpg);
+
+}
+
+button {
+    font-size: 1.5rem;
+    margin-right: 15rem;
+    float: right;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    color: #fff;
+    background-color: #444;
+    
+}
+
+.footer{
+    color: white;
+    margin-top: 15rem;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 5rem;
+    background-color:#444 ;
+}
